@@ -10,7 +10,7 @@ You can find the latest version of the website on [https://match-documentation.n
 
 To view your changes locally use:
 ```shell
-cd To/website/repository/directory/
+cd To/repository/Parent/directory/match-documentation/
 
 hugo server
 ```
