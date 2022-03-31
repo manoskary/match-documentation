@@ -1,30 +1,62 @@
-<!--<p align="center"><a href="https://wowchemy.com" target="_blank" rel="noopener"><img src="https://sourcethemes.com/academic/img/logo_200px.png" alt="Wowchemy Website Builder"></a></p>-->
+# The _Match Documentation_ Website 
 
-# Book Template for [Wowchemy Website Builder](https://wowchemy.com)
+This repository contains the code for creating the Match Documentation website. 
+The Match Documentation website is created using the Hugo Book Template Theme and Wowchemy.
 
-The **Book Template** empowers you to create **product documentation**, **digital books**, **personal notes**, and **knowledge bases**.
+### General Instructions 
+
+When you change a file and push your changes then the website will be automatically updated.
+You can find the latest version of the website on [https://match-documentation.netlify.app/](https://match-documentation.netlify.app/).
+
+To view your changes locally use:
+```shell
+cd To/website/repository/directory/
+
+hugo server
+```
+You can copy `//localhost:1313/` in your browser to visualize locally the website and your ongoing changes.
+
+
+Homebrew and MacPorts can be used to install hugo on Linux or Mac Respectively. 
+See [install](https://gohugo.io/getting-started/installing) if you are running Windows or you are running into errors.
+```shell
+brew install hugo
+# or
+port install hugo
+```
+
+## Repository Organization
+
+#### Content
+
+In the folder content of the repository one can find the complete contents of the created website.
+This is the principal folder that should be mainly used and changed.  
+Every folder in this directory page should correspond to a Page accessible by the main page. 
+Following this logic, there is a folder home for the main (_welcome_) page, a folder about match documentation,
+a folder about partitura documentation or redirection, and also could have matchmaker documentation or other projects in distinct folders.
+
+
+
+#### Assets 
+The asset folder contains media such as icons, logos, etc.
+
+#### Date and Resources
+
+These folder contain Theme related information that is used automatically to create a hugo style website. They
+
+#### Config
+
+The config folder concerns language and other configuration related settings.
+
+
+
+
+## Theme, Wowchemy & Hugo related Information
 
 [Check out the latest demo](https://book-starter.netlify.app/) of what you'll get in less than 10 minutes, or [view the showcase](https://wowchemy.com/user-stories/).
 
-[**Wowchemy**](https://github.com/wowchemy/wowchemy-hugo-modules) makes it easy to create a beautiful website for free using Markdown, Jupyter, or RStudio. Customize anything on your site with widgets, themes, and language packs.
 
 - 👉 [**Get Started**](https://wowchemy.com/templates/)
 - 📚 [View the **documentation**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=(%23MadeWithWowchemy%20OR%20%23MadeWithAcademic)&src=typed_query)
-- 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-modules/issues)
 - ⬆️ **Updating Wowchemy?** View the [Update Guide](https://wowchemy.com/docs/update/) and [Release Notes](https://wowchemy.com/updates/)
 
-## Crowd-funded open-source software
-
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
-
-### [❤️ Click here to unlock rewards with sponsorship](https://wowchemy.com/plans/)
-
-<!--
-[![Screenshot]()](https://github.com/wowchemy/starter-book)
--->
-
-<!--
-[![](https://ga-beacon.appspot.com/UA-78646709-2/starter-book/readme?pixel)](https://github.com/igrigorik/ga-beacon)
--->
