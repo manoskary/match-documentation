@@ -7,9 +7,21 @@ main:
   - name: Home
     url: /
     weight: 10
-  - name: Documentation
+  - name: Match
     url: docs/
     weight: 20
-  - name: Partitura Documentation
-    url : partitura/
+  - name: Partitura
+    url : https://partitura.readthedocs.io/en/latest/
     weight: 30
+  - name: MatchMaker
+    url: https://partitura.readthedocs.io/en/latest/
+    weight: 40
+  - name: Struttura
+    url: https://partitura.readthedocs.io/en/latest/
+    weight: 50
+  - name: BasisMixer
+      url: https://partitura.readthedocs.io/en/latest/
+      weight: 60
+  - name: Accompanion
+      url: https://partitura.readthedocs.io/en/latest/
+      weight: 70
