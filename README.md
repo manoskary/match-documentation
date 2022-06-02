@@ -6,7 +6,7 @@ The Match Documentation website is created using the Hugo Book Template Theme an
 ### General Instructions 
 
 When you change a file and push your changes then the website will be automatically updated.
-You can find the latest version of the website on [https://match-documentation.netlify.app/](https://match-documentation.netlify.app/).
+You can find the latest version of the website on [https://cpjku-documentation.netlify.app](https://cpjku-documentation.netlify.app).
 
 To view your changes locally use:
 ```shell
