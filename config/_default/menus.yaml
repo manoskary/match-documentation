@@ -20,8 +20,8 @@ main:
     url: https://partitura.readthedocs.io/en/latest/
     weight: 50
   - name: BasisMixer
-      url: https://partitura.readthedocs.io/en/latest/
-      weight: 60
+    url: https://partitura.readthedocs.io/en/latest/
+    weight: 60
   - name: Accompanion
-      url: https://partitura.readthedocs.io/en/latest/
-      weight: 70
+    url: https://partitura.readthedocs.io/en/latest/
+    weight: 70
